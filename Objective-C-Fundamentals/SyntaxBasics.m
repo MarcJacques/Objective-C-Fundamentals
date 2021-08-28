@@ -5,6 +5,7 @@
 //  Created by Marc Jacques on 8/22/21.
 //
 
+// Rule 2: Always import your header file into your .m files
 #import "SyntaxBasics.h"
 
 @implementation SyntaxBasics

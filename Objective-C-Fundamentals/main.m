@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SyntaxBasics.h"
 //C, C++, Objective-C all start with main
 
 // return-type <name-of-function>(parameter, list) { }
@@ -15,7 +16,27 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Hello, Marc!");
+        
+        //In Swift
+        //let basics = SwiftBasics()
+        
+        SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@34340939];
+        
+        //print("Large Number: \(basics.largeNumber)")
+        
+        /*
+         String Tokens or String Format Specifiers (order matters)
+         %@ = object: @"objc string"
+         %s = c string "hello"
+         %d or %i = int
+         %ld or %li
+         
+         */
+        
+        
+        NSLog(@"Large Number: %@", basics.largeNumber);
+        
         
     }
     return 0;

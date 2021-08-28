@@ -13,12 +13,46 @@ NS_ASSUME_NONNULL_BEGIN
 // C uses pointers and it doesn't have objects (functions and structures)
 // @ symbols are the Objective-c additions to the C language, it gives objects to a language that didn't have
 
-//.h files is the header (functions + classes are declared)
-//.m is methods/implementation file (functions are defined)
 
-// assistant editor: Command + control + option + enter (split screen mode for header and )
-// show related file: Control + command + up/down arrow (helps you navigate through the related files)
+/*
+ In swift you create a class by doing the following:
+ 
+ class LargeNumber {
+        
+        var largeNumber: Int
+ 
+        init(largeNumber = Int) {
+            self.largeNumber = largeNumber
+        }
+  }
+ 
+ However in objective-C
+    1. you need 2 files to create a class each has it's own job
+    2.
+ 
+ */
 
+
+/*
+ .h files is the header (functions + classes are declared)
+ this is where you instantiate the object or create the object
+ 
+ */
+
+
+/*
+ .m is methods/implementation file (functions/classes are defined)
+ - this is where you create the functions and methods of the class
+ - this is the blueprint to help understand how it works what are the requirements and what it does.
+ 
+ */
+
+
+/*
+ - assistant editor: Command + control + option + enter (split screen mode for header and )
+ - show related file: Control + command + up/down arrow (helps you navigate through the related files)
+ 
+ */
 
 
 //Swift class
