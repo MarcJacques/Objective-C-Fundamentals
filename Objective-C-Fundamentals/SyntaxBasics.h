@@ -69,8 +69,18 @@ NS_ASSUME_NONNULL_BEGIN
 // omot(largeNumber: Int)
 
 // - or + (- = instance method, + = class method)
+// ()instancetype) = return type (older code: id)
+
+// initializers at the top
 - (instancetype) initWithLargeNumber:(NSNumber *)largeNumber;
 
+// methods
+
+// (void) = no return value
+- (void)explorePrimitives;
+- (void)exploreObjects;
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
+- (void)exploreNumbers;
 
 @end
 

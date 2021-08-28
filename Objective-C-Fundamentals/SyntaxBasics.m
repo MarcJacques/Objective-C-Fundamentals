@@ -16,12 +16,29 @@
         
         
         // Rule: 1 Don't use self.propertyName in int/dealloc methods
-        // Always use the _"propertyName to assign the backing
+        // Always use the "_propertyName" to assign the backing
         // instance variable for a property
         _largeNumber = largeNumber;
         
     }
     return self;
 }
+
+- (void)explorePrimitives {
+    NSLog(@"test");
+}
+
+- (void)exploreObjects {
+    
+}
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains {
+    
+}
+
+- (void)exploreNumbers {
+    
+}
+
 
 @end
