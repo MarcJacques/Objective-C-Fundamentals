@@ -44,6 +44,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Large Number: %@", basics.largeNumber);
         
         [basics explorePrimitives];
+        [basics exploreObjects];
         
     }
     return 0;
