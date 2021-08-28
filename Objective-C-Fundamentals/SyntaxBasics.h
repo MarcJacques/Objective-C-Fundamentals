@@ -28,6 +28,16 @@ NS_ASSUME_NONNULL_BEGIN
 // the code below is the equivalent
 @interface SyntaxBasics : NSObject
 
+@property NSNumber *largeNumber; // pointer uses *, we use it for any object
+
+
+//in swift we initialize by:
+// omot(largeNumber: Int)
+
+// - or + (- = instance method, + = class method)
+- (instancetype) initWithLargeNumber:(NSNumber *)largeNumber;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
